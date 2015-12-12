@@ -44,6 +44,13 @@ class TableViewController: UITableViewController {
     
     override func viewDidAppear(animated: Bool) {
         
+        let AppDel: AppDelegate = UIApplication.sharedApplication().delegate as! AppDelegate
+        
+        let Context: NSManagedObjectContext = AppDel.managedObjectContext
+        let request = NSFetchRequest(entityName: "StudentDetail")
+        
+        List = try! Context.executeFetchRequest(request)
+        tableView.reloadData()
         
     
     }

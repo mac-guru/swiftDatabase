@@ -135,24 +135,24 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1701" y="349"/>
+            <point key="canvasLocation" x="2043" y="338"/>
         </scene>
         <!--Entered-->
         <scene sceneID="MEv-uu-xxp">
             <objects>
                 <tableViewController id="Xpu-yj-nrg" customClass="TableViewController" customModule="swiftDatabase" customModuleProvider="target" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="110" sectionHeaderHeight="28" sectionFooterHeight="28" id="1OZ-Am-cYS">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="101" sectionHeaderHeight="28" sectionFooterHeight="28" id="1OZ-Am-cYS">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <color key="sectionIndexBackgroundColor" red="0.95686274509803926" green="1" blue="0.98431372549019602" alpha="1" colorSpace="calibratedRGB"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" rowHeight="110" id="hPR-3X-JsE" customClass="TableViewCell" customModule="swiftDatabase" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="28" width="600" height="110"/>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" rowHeight="101" id="hPR-3X-JsE" customClass="TableViewCell" customModule="swiftDatabase" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="28" width="600" height="101"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="hPR-3X-JsE" id="Jbo-B8-dxH">
-                                    <rect key="frame" x="0.0" y="0.0" width="600" height="109.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="100.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="First Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xWu-bq-p8b">
@@ -197,7 +197,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YpF-dF-njF" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1077" y="349"/>
+            <point key="canvasLocation" x="1167" y="292"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="D2s-hA-FN6">

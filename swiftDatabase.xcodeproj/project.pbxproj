@@ -8,13 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		F0EFDA4D1C1C1DD000095F2F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0EFDA4C1C1C1DD000095F2F /* AppDelegate.swift */; };
-		F0EFDA4F1C1C1DD000095F2F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0EFDA4E1C1C1DD000095F2F /* ViewController.swift */; };
 		F0EFDA521C1C1DD000095F2F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0EFDA501C1C1DD000095F2F /* Main.storyboard */; };
 		F0EFDA551C1C1DD000095F2F /* swiftDatabase.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F0EFDA531C1C1DD000095F2F /* swiftDatabase.xcdatamodeld */; };
 		F0EFDA571C1C1DD000095F2F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0EFDA561C1C1DD000095F2F /* Assets.xcassets */; };
 		F0EFDA5A1C1C1DD000095F2F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0EFDA581C1C1DD000095F2F /* LaunchScreen.storyboard */; };
 		F0EFDA651C1C1DD000095F2F /* swiftDatabaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0EFDA641C1C1DD000095F2F /* swiftDatabaseTests.swift */; };
 		F0EFDA701C1C1DD000095F2F /* swiftDatabaseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0EFDA6F1C1C1DD000095F2F /* swiftDatabaseUITests.swift */; };
+		F0EFDA7E1C1C245A00095F2F /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0EFDA7D1C1C245A00095F2F /* TableViewCell.swift */; };
+		F0EFDA801C1C2C9F00095F2F /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0EFDA7F1C1C2C9F00095F2F /* CoreData.framework */; };
+		F0EFDA821C1C2CE100095F2F /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0EFDA811C1C2CE100095F2F /* TableViewController.swift */; };
+		F0EFDA841C1C2CF500095F2F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0EFDA831C1C2CF500095F2F /* ViewController.swift */; };
+		F0EFDA861C1C2D7700095F2F /* databaseThing.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0EFDA851C1C2D7700095F2F /* databaseThing.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +41,6 @@
 /* Begin PBXFileReference section */
 		F0EFDA491C1C1DD000095F2F /* swiftDatabase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = swiftDatabase.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0EFDA4C1C1C1DD000095F2F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F0EFDA4E1C1C1DD000095F2F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F0EFDA511C1C1DD000095F2F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F0EFDA541C1C1DD000095F2F /* swiftDatabase.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = swiftDatabase.xcdatamodel; sourceTree = "<group>"; };
 		F0EFDA561C1C1DD000095F2F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +52,11 @@
 		F0EFDA6B1C1C1DD000095F2F /* swiftDatabaseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = swiftDatabaseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0EFDA6F1C1C1DD000095F2F /* swiftDatabaseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftDatabaseUITests.swift; sourceTree = "<group>"; };
 		F0EFDA711C1C1DD000095F2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0EFDA7D1C1C245A00095F2F /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		F0EFDA7F1C1C2C9F00095F2F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		F0EFDA811C1C2CE100095F2F /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		F0EFDA831C1C2CF500095F2F /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F0EFDA851C1C2D7700095F2F /* databaseThing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = databaseThing.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0EFDA801C1C2C9F00095F2F /* CoreData.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +88,7 @@
 		F0EFDA401C1C1DD000095F2F = {
 			isa = PBXGroup;
 			children = (
+				F0EFDA7F1C1C2C9F00095F2F /* CoreData.framework */,
 				F0EFDA4B1C1C1DD000095F2F /* swiftDatabase */,
 				F0EFDA631C1C1DD000095F2F /* swiftDatabaseTests */,
 				F0EFDA6E1C1C1DD000095F2F /* swiftDatabaseUITests */,
@@ -100,9 +110,12 @@
 			isa = PBXGroup;
 			children = (
 				F0EFDA4C1C1C1DD000095F2F /* AppDelegate.swift */,
-				F0EFDA4E1C1C1DD000095F2F /* ViewController.swift */,
-				F0EFDA501C1C1DD000095F2F /* Main.storyboard */,
+				F0EFDA7D1C1C245A00095F2F /* TableViewCell.swift */,
+				F0EFDA831C1C2CF500095F2F /* ViewController.swift */,
+				F0EFDA811C1C2CE100095F2F /* TableViewController.swift */,
+				F0EFDA851C1C2D7700095F2F /* databaseThing.swift */,
 				F0EFDA561C1C1DD000095F2F /* Assets.xcassets */,
+				F0EFDA501C1C1DD000095F2F /* Main.storyboard */,
 				F0EFDA581C1C1DD000095F2F /* LaunchScreen.storyboard */,
 				F0EFDA5B1C1C1DD000095F2F /* Info.plist */,
 				F0EFDA531C1C1DD000095F2F /* swiftDatabase.xcdatamodeld */,
@@ -262,9 +275,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F0EFDA4F1C1C1DD000095F2F /* ViewController.swift in Sources */,
+				F0EFDA841C1C2CF500095F2F /* ViewController.swift in Sources */,
+				F0EFDA861C1C2D7700095F2F /* databaseThing.swift in Sources */,
+				F0EFDA7E1C1C245A00095F2F /* TableViewCell.swift in Sources */,
 				F0EFDA4D1C1C1DD000095F2F /* AppDelegate.swift in Sources */,
 				F0EFDA551C1C1DD000095F2F /* swiftDatabase.xcdatamodeld in Sources */,
+				F0EFDA821C1C2CE100095F2F /* TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,9 +7,16 @@
 //
 
 import UIKit
+import CoreData
+
 
 class ViewController: UIViewController {
 
+    @IBOutlet var firstName: UITextField!
+    @IBOutlet var lastName: UITextField!
+    @IBOutlet var collegeName: UITextField!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -31,5 +38,33 @@ class ViewController: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
-
+    
+    
+    @IBAction func saveData(sender: AnyObject) {
+        
+        let AppDel: AppDelegate = UIApplication.sharedApplication().delegate as! AppDelegate
+        let Context: NSManagedObjectContext = AppDel.managedObjectContext
+        let entity = NSEntityDescription.entityForName("StudentDetail", inManagedObjectContext: Context)
+        
+        let item = databaseThing(entity: entity!, insertIntoManagedObjectContext: Context)
+        
+        item.firstName = firstName.text!
+        item.lastName = lastName.text!
+        item.collegeName = collegeName.text!
+        
+        
+        do{
+        
+            try Context.save()
+        
+        }
+        catch _ {
+        
+        }
+    
+    
 }
+        
+    }
+
+

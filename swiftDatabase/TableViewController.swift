@@ -42,6 +42,16 @@ class TableViewController: UITableViewController {
     }
 
     
+    override func viewDidAppear(animated: Bool) {
+        
+        
+    
+    }
+    
+    
+    
+    
+    
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let cell:TableViewCell = tableView.dequeueReusableCellWithIdentifier("cell") as! TableViewCell
         
